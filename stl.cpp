@@ -17,7 +17,14 @@ int main(){
     return 0;
 }
 
-pair<t1,t2>pair1
+pair<class t1,class t2>pair1
 //here we can give any data type or class in space of t1 or t2
-example
+//example
 pair<string,int>p1;
+
+//vector clas supports the dynamic array concept
+//vector doubles its size when it is to fill
+# include<vector>
+int main(){
+    vector<int>v1 (10,20,30);
+}
